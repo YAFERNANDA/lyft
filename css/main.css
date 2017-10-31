@@ -1,0 +1,31 @@
+/*el mismo model box*/
+*,::after,::before{
+  box-sizing: border-box;
+}
+/*posicionando relative , dos inlines label e input dentro del contenedor  */
+.main-container{
+  background-color: white;
+  position: relative;
+}
+.relative-label-input{
+position: relative;
+}
+.button-driver{
+  border-radius: 6px;
+  padding: 7px 8px;
+  border:1px solid transparent;
+  cursor: pointer;
+
+  }
+.text-white{
+  color: #FFF;
+}
+.text-gray{
+  color: gray;
+}
+.btn-driver{
+  background-color: #ff00bf;
+}
+.btn-ride{
+  background-color: transparent
+}
