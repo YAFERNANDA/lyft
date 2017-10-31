@@ -55,17 +55,101 @@
       </nav>
     </header>
 
+      <div class="main-container">
+  <form class="userform">
     <!--inicio de phone number  -->
     <div class="first-div-tel" >
-      <div class="div-tel" >
+      <div class="relative-label-input" >
         <label class="phone-number" >Phone Number</label>
         <input type="tel" name="telphone" id="telphone" placeholder="" class="">
         <span class="pos">
-        <!-- <i class="_3SwNHo" ></i> -->
          </span>
        </div>
      </div>
     <!--fin de phone number  -->
+    <!--Inicio Datos de usuario y servicio-->
+    <div>
+	  <!--Inicio  first name y last name-->
+    <div class="row m-y-s">
+			<!-- inicio creación de la caja de texto y etiqueta para first Name -->
+      <div class="c">
+          <div class="relative-label-input">
+          <label for="first_name" class="">First Name</label>
+          <input type="text" name="first_name" id="first_name" placeholder="" class="">
+          <span class=""></span>
+          </div>
+       </div>
+			<!--Fin creación de la caja de texto y etiqueta para first Name -->
+		 <!-- inicio creación de la caja de texto y etiqueta para last Name -->
+     <div class="">
+       <div class="relative-label-input">
+         <label for="last_name" class="">Last Name</label>
+         <input type="text" name="last_name" required="" id="last_name" placeholder="" class="                           ">
+         <span class=""></span>
+       </div>
+     </div>
+	 <!--Fin creación de la caja de texto y etiqueta para last Name -->
+   </div>
+  <!--Fin  first name y last name-->
+<!--Inicio  email-->
+ <div class="">
+  <!-- inicio creación de la caja de texto y etiqueta para Email -->
+  <div class="relative-label-input">
+    <label for="email" class="">Email</label>
+		<input type="email" name="email" pattern=".+@.+\..+" required="" id="email" placeholder="" class="">
+    <span class=""></span>
+  </div>
+  <!-- fin creación de la caja de texto y etiqueta para Email -->
+ </div>
+<!--Fin  email-->
+<!-- Inicio de City y Promo Code -->
+<div class="row m-y-s">
+	<!-- Inicio City -->
+	<div class="col-xs-12 col-md-7">
+		<!-- inicio creación de la caja de texto y etiqueta city -->
+		<div class="relative-label-input">
+			<label for="region" class="">City</label>
+			<input type="text" name="region" required="" autocomplete="off" id="region" placeholder="" class="">
+        <span class=""></span>
+		 </div>
+		<!-- fin creación de la caja de texto y etiqueta city -->
+	 </div>
+	 <!-- fin city -->
+	 <!-- Inicio creación del link Promo code -->
+  <div class="col">
+		<a class="" style="text-decoration: underline;">Promo code?</a>
+	</div>
+		 <!--Fin creación del link Promo code -->
+ </div>
+ <!-- Fin de City y Promo Code -->
+ <!-- Inicio checkbox y link  -->
+ <div class="m-y-m">
+	  <!-- Inicio de creación checkbox agree y link de lyt's terms  -->
+	 <div>
+		 <input type="checkbox" id="agreeToTerms" name="agreeToTerms" required="" class="m-r-s uOLSm5" value="false">
+		 <label for="agreeToTerms">
+			<span class="text-xsmall">I agree to
+				<a href="https://www.lyft.com/terms" target="_blank">Lyft’s Terms of Service</a>
+      </span>
+		</label>
+  </div>
+    <!-- Fin de creqación checkbox agree y link de lyt's terms  -->
+</div>
+<!-- Fin checkbox y link -->
+
+</div>
+<!--Fin Datos y terminos de servicio-->
+
+<!--Inicio de "Become a driver" y "Sign up to ride" -->
+<div class="" >
+	<button class="button-driver text-white btn-driver" type="submit" id="drive" data-reactid="92">
+		Become a Driver</button>
+	<button class="button-driver text-gray btn-ride" style="text-decoration:underline;" type="button"  id="ride" >
+		Sign Up to Ride</button>
+</div>
+<!--Fin de "Become a driver" y "Sign up to ride" -->
+ </form>
+</div>
 
       <script src="jquery/jquery-3.2.1.min.js">
 
